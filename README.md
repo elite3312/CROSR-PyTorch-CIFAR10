@@ -1,4 +1,4 @@
-# NCU-RSS-1.6-Open-Set-Classifiers
+# CROSR PyTorch
 - This repo is based on https://github.com/saketd403/CROSR, which is a PyTorch implementation for "Classification-Reconstruction Learning for Open-Set Recognition", CVPR 2019. 
 - The original repo was not plug and play, so I added some modifcations and made it ready to use on CIFAR10.
 
