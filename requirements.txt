@@ -1,0 +1,8 @@
+torch
+torchvision
+PIL
+scipy
+sklearn
+cython
+libmr
+tabulate
