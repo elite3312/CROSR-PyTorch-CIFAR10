@@ -33,7 +33,7 @@ The downloaded content should contain the following:
     ```
 - Unzip train.7z, and move the unzipped `train` folder and `trainLabels.csv` to `data\input_data_cifar10`.
     ```bash
-    ls .\data\input_data_cifar10\
+    $ ls .\data\input_data_cifar10\
     train
     trainLabels.csv
     ```
@@ -55,6 +55,7 @@ num_classes=6 # number of classes learned duing training.
 py convert_cifar10_input_2_fit_torch.py
 ```
 - This script produces a `torchvision.datasets.ImageFolder-like` dataset folder and places it at `data\cifar10`.
+- Writing a dataloader is another option.
 - We use 6 classes from cifar10 as training classes(or known classes), and the remaining 4 classes as outlier classes. The train-val split is 8:2.
     ```ps
     Training_data: 	80s% of   [cat, deer, dog, frog, horse, ship]
